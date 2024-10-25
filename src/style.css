@@ -1,0 +1,69 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 20px; /* Margen alrededor del contenido */
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+/* Estilo del encabezado principal */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: #b22222; /* Color rojo */
+}
+
+/* Estilo para párrafos */
+p {
+    color: #333; /* Color del texto */
+    margin-bottom: 15px; /* Espacio debajo de los párrafos */
+}
+
+/* Estilo para los encabezados de sección */
+h2, h3, h5 {
+    color: #0056b3; /* Color azul */
+    border-bottom: 2px solid #0056b3; /* Línea debajo de los encabezados */
+    padding-bottom: 5px; /* Espacio debajo del texto */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    margin: 20px 0; /* Margen arriba y abajo */
+    border-spacing: 5px 5px;
+    border: 2px solid #333;
+}
+
+th, td {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+    border: 2px solid #333;
+}
+
+th {
+    background-color: #e7e7e7; /* Color de fondo para los encabezados */
+    border-bottom: 2px solid #b22222; /* Línea debajo de los encabezados */
+    border: 2px solid #333;
+}
+
+/* Estilo para listas ordenadas y desordenadas */
+ol, ul {
+    margin-left: 20px; /* Sangría a la izquierda */
+}
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%; /* Ancho máximo del 100% para hacerla responsiva */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Asegura que no haya espacio extra debajo de la imagen */
+    margin: 0 auto; /* Centrar la imagen */
+}
+
+/* Estilo del enlace */
+a {
+    color: #b22222; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
